@@ -395,8 +395,6 @@ text-align: right;
     <meta name="description" content="Name">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="style.css"><style class="darkreader darkreader--sync" media="screen"></style>
-    <link rel="stylesheet" href="styles.css"><style class="darkreader darkreader--sync" media="screen"></style>
 <meta name="darkreader" content="3e07ec3738394843a702bb4d48e5f810"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
     background-color: #7b5300 !important;
     border-color: #d8b013 !important;
@@ -23349,7 +23347,7 @@ document.getElementById("search-bar").value = "https://discord.com/login";
 //document.getElementById("search-bar").value = "https://open.spotify.com/";
 //    document.getElementById("sub").click();
 //    console.log("aaaaaa");
-//});
+// });
 document.getElementById("reddit").addEventListener("click", function() {
 document.getElementById("search-bar").value = "https://old.reddit.com/";
     document.getElementById("sub").click();
@@ -23381,7 +23379,7 @@ document.getElementById("search-bar").value = "https://coolmathgames.com/";
 document.getElementById("settings").addEventListener("click", function() {
         window.location.href = window.location.href + "settings"
 });
-/*
+
 document.getElementById("data-out").addEventListener("click", function() {
 function getLocalStorageAsJson() {
   const localStorageData = {};
@@ -23410,16 +23408,15 @@ function saveStringAsFile(content, filename) {
 const saved = saveStringAsFile(getLocalStorageAsJson(), "test.dump");
 console.log("saved")
 });
-*/
+
 
 //cloaking beta
-/*
+
 document.getElementById("cloak").addEventListener("click", function() {
       const url = 'about:blank';
       const win = window.open(url);
       win.document.body.innerHTML = `<iframe style="position:absolute;width:100%;height:100%;border:none;top:0;left:0;right:0;bottom:0;" src="${window.location.href}"></iframe>`;
 });
-*/
 function getCookie(name) {
     var dc = document.cookie;
     var prefix = name + "=";
